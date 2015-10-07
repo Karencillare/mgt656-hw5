@@ -5,8 +5,8 @@ app.get('/', function(request, response){
     response.send('Hello MGT-656!');
 });
 
-app.get('/gleaming-dinosaur', function(request, response){
-    response.send('The gleaming-dinosaur wants to be Pusheen!');
+app.get('/nickname', function(request, response){
+    response.send('gleaming-dinosaur');
 });
 
 app.listen(process.env.PORT || 4000);
